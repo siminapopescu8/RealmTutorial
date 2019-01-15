@@ -8,24 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		7EC13BB0E54C80C3786D31F9 /* Pods_RealmTutorial.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4468A7F70882B42DCD7C8750 /* Pods_RealmTutorial.framework */; };
+		C397C1D121EDCF6C000CF540 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C397C1D021EDCF6C000CF540 /* UIViewController+Extension.swift */; };
 		C3A6FA2E21EC8C920038E1A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6FA2D21EC8C920038E1A7 /* AppDelegate.swift */; };
-		C3A6FA3021EC8C920038E1A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6FA2F21EC8C920038E1A7 /* ViewController.swift */; };
 		C3A6FA3321EC8C920038E1A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A6FA3121EC8C920038E1A7 /* Main.storyboard */; };
 		C3A6FA3521EC8C930038E1A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3A6FA3421EC8C930038E1A7 /* Assets.xcassets */; };
 		C3A6FA3821EC8C930038E1A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3A6FA3621EC8C930038E1A7 /* LaunchScreen.storyboard */; };
+		C3A6FA4021ECAD310038E1A7 /* AddLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6FA3F21ECAD310038E1A7 /* AddLocationViewController.swift */; };
+		C3A6FA4221ECAD4B0038E1A7 /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6FA4121ECAD4B0038E1A7 /* LocationsViewController.swift */; };
+		C3A6FA4421ECAD5D0038E1A7 /* RealmWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6FA4321ECAD5D0038E1A7 /* RealmWorker.swift */; };
+		C3A6FA4621ECAD760038E1A7 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A6FA4521ECAD760038E1A7 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4468A7F70882B42DCD7C8750 /* Pods_RealmTutorial.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RealmTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B640D2E23A04F1574A7CD09 /* Pods-RealmTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTutorial.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealmTutorial/Pods-RealmTutorial.debug.xcconfig"; sourceTree = "<group>"; };
 		89C5B15283A842A7343987C7 /* Pods-RealmTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealmTutorial.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealmTutorial/Pods-RealmTutorial.release.xcconfig"; sourceTree = "<group>"; };
+		C397C1D021EDCF6C000CF540 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		C3A6FA2A21EC8C920038E1A7 /* RealmTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealmTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3A6FA2D21EC8C920038E1A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3A6FA2F21EC8C920038E1A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C3A6FA3221EC8C920038E1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3A6FA3421EC8C930038E1A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3A6FA3721EC8C930038E1A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3A6FA3921EC8C930038E1A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3A6FA3F21ECAD310038E1A7 /* AddLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLocationViewController.swift; sourceTree = "<group>"; };
+		C3A6FA4121ECAD4B0038E1A7 /* LocationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
+		C3A6FA4321ECAD5D0038E1A7 /* RealmWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmWorker.swift; sourceTree = "<group>"; };
+		C3A6FA4521ECAD760038E1A7 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,11 +87,15 @@
 			isa = PBXGroup;
 			children = (
 				C3A6FA2D21EC8C920038E1A7 /* AppDelegate.swift */,
-				C3A6FA2F21EC8C920038E1A7 /* ViewController.swift */,
 				C3A6FA3121EC8C920038E1A7 /* Main.storyboard */,
 				C3A6FA3421EC8C930038E1A7 /* Assets.xcassets */,
 				C3A6FA3621EC8C930038E1A7 /* LaunchScreen.storyboard */,
 				C3A6FA3921EC8C930038E1A7 /* Info.plist */,
+				C3A6FA3F21ECAD310038E1A7 /* AddLocationViewController.swift */,
+				C3A6FA4121ECAD4B0038E1A7 /* LocationsViewController.swift */,
+				C3A6FA4321ECAD5D0038E1A7 /* RealmWorker.swift */,
+				C3A6FA4521ECAD760038E1A7 /* Location.swift */,
+				C397C1D021EDCF6C000CF540 /* UIViewController+Extension.swift */,
 			);
 			path = RealmTutorial;
 			sourceTree = "<group>";
@@ -210,8 +222,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3A6FA3021EC8C920038E1A7 /* ViewController.swift in Sources */,
+				C397C1D121EDCF6C000CF540 /* UIViewController+Extension.swift in Sources */,
+				C3A6FA4021ECAD310038E1A7 /* AddLocationViewController.swift in Sources */,
 				C3A6FA2E21EC8C920038E1A7 /* AppDelegate.swift in Sources */,
+				C3A6FA4621ECAD760038E1A7 /* Location.swift in Sources */,
+				C3A6FA4221ECAD4B0038E1A7 /* LocationsViewController.swift in Sources */,
+				C3A6FA4421ECAD5D0038E1A7 /* RealmWorker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
